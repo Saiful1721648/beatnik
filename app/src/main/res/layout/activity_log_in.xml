@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logIn">
+    <ImageView
+        android:id="@+id/cpcMemberLoginLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/todo2" />
+
+    <ImageView
+        android:id="@+id/ccpcMemberLoginpassLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpcMemberLoginLogo"
+        app:srcCompat="@drawable/passwardlogin"
+        android:contentDescription="@string/todo1" />
+
+    <TextView
+        android:id="@+id/cpcMemberLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/cpcmemberlogin"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ccpcMemberLoginpassLogo" />
+
+    <EditText
+        android:id="@+id/cpcLogInEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="18"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpcMemberLoginTitle"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/cpcMemberLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="18"
+        android:hint="@string/passward"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpcLogInEmail"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/cpcMemberLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#000000"
+        android:text="@string/stloginbtn"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpcMemberLoginPassword" />
+
+    <TextView
+        android:id="@+id/cpcMemberLoginForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/stforgotpasstext"
+        android:textColor="#FB2414"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cpcMemberLoginButton" />
+
+    <TextView
+        android:id="@+id/cpcMemberLoginActReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/msgSignUp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cpcMemberLoginForgotPass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cpcMemberLoginForgotPass" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

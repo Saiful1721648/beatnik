@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135016438771",
+    "project_id": "beatnik-b91ec",
+    "storage_bucket": "beatnik-b91ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135016438771:android:a27d397fb332799cd59086",
+        "android_client_info": {
+          "package_name": "com.example.beatnik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135016438771-4edsq8rbrtmjj7fe9denkt9mmbtlv3do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFziV0ehoBH_iFxwllMjAgZh3xxP4BMV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135016438771-4edsq8rbrtmjj7fe9denkt9mmbtlv3do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

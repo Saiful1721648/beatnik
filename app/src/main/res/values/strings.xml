@@ -2,5 +2,19 @@
     <string name="app_name">beatnik</string>
     <string name="textlogounder">Welcome to Beatnik Technology</string>
     <string name="todo" />
+    <string name="passward">passward</string>
+    <string name="stloginbtn">Log in</string>
+    <string name="stlogintext">Log In</string>
+    <string name="email">Email Id</string>
+    <string name="stforgotpasstext">Forgot Passward?</string>
+    <string name="msgSignUp">Are you not registered ?Sign Up Here</string>
+    <string name="cpcmemberlogin">Log In</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="cpcmember">Sign Up</string>
+    <string name="signupbtntext">Sign Up</string>
+    <string name="msgSignIn">are you alreadu registered? Log In Here</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
 </resources>
