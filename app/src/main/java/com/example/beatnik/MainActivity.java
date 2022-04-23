@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this,logIn.class));
                     finish();
 
-                },3000
+                },2000
 
         );
         Toast.makeText(this,"Welcome to Beatnik Technology",Toast.LENGTH_SHORT).show();

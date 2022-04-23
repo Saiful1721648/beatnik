@@ -56,7 +56,7 @@ public class cHomePage extends AppCompatActivity {
                     case R.id.menu_profile :
                         Intent intent =new Intent(cHomePage.this,profilePictureUpload.class);
                         startActivity(intent);
-                        Toast.makeText(getApplicationContext(),"Call Panel is Open",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"Please Upload your profile picture",Toast.LENGTH_LONG).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 

@@ -63,7 +63,7 @@ public class logIn extends AppCompatActivity implements View.OnClickListener  {
         String Cemail=cpcLogInEmail.getText().toString().trim();
         String Cpassword=cpcLogInPassward.getText().toString().trim();
         if(Cemail.isEmpty()){
-            cpcLogInEmail.setError("Nsu Mail id is Required");
+            cpcLogInEmail.setError("Mail id is Required");
             cpcLogInEmail.requestFocus();
             return;
 

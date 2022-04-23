@@ -40,7 +40,7 @@ public class cpcForgotPassward extends AppCompatActivity {
     private void cpcMemberResetPassward(){
         String cpcMail =forgotPassCpcEmailAddress.getText().toString().trim();
         if(cpcMail.isEmpty()){
-            forgotPassCpcEmailAddress.setError("Nsu Mail id is Required");
+            forgotPassCpcEmailAddress.setError("Mail id is Required");
             forgotPassCpcEmailAddress.requestFocus();
             return;
 
